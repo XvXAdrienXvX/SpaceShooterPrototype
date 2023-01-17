@@ -18,7 +18,7 @@ public class AsteroidManager : MonoBehaviour
 
     private void PlaceAsteroids()
     {
-        for (int xPosition = 0; xPosition < numberOfAsteroids; xPosition++) // need to optimize :(
+        for (int xPosition = 0; xPosition < numberOfAsteroids; xPosition++)
         {
             for (int yPosition = 0; yPosition < numberOfAsteroids; yPosition++)
             {
